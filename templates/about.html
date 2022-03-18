@@ -1,8 +1,25 @@
 {% extends 'base.html' %}
 
+
 {% block title %}About Me{% endblock title %}
 
+
 {% block content %}
+{% load static %} <img src="{% static "/about_me.png" %}" alt="about_me" />
+
 <h1>About the Author</h1>
-<p>My name is Miles Inada. I work wayy too much and am hoping to land a single job that can support my family and I!</p>
+
+<p>My name is Miles Inada. I work wayy too much and am hoping to land a single job that can support my growing family and I! Currently in the morning I run my pool service before clocking in to my regular job.😓</p> 
+    <h4>Somethings that I enjoy doing include: </h4>
+    <ul>
+    <li>Hiking</li>
+    <li>Spearfishing</li>
+    <li>Building Things</li>
+    <li>Playing Video Games</li>
+    <li>Cooking</li>
+    <li>Eating</li>
+    <li>Offroading</li>
+    </ul>
+
+
 {% endblock content %}
